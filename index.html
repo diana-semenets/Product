@@ -170,7 +170,7 @@
                                 <div class="quick__item-text">I can help marketing strategy</div>
                             </div>
                         </div>
-                        <div class="quick__inner-btn"><a href="#">Contact our expert</a></div>
+                        <div data-modal class="quick__inner-btn"><a href="#">Contact our expert</a></div>
                     </div>
                 </div>
             </section>
@@ -220,7 +220,7 @@
                     <div class="table__container-title title__main">Price Table</div>
                     <div class="table__container-text">We offer competitive price</div>
                     <div class="table__container-cards">
-                        <div class="table__card" id="card">
+                    <!--   <div class="table__card" id="card">
                             <div class="table__card-title">Free</div>
                             <div class="table__card-subtitle">Brief price description</div>
                             <div class="table__card-price"><span class="price-price">0$</span>/ month </div>
@@ -254,7 +254,7 @@
                                 <p>Landing Pages</p>
                             </div>
                             <div class="table__card-btn"><a href="#">Order Now</a></div>
-                        </div>
+                        </div> --> 
                     </div>
                 </div>
             </section>
@@ -350,7 +350,7 @@
                 <div class="green____container">
                     <div class="green____content">
                         <div class="green____content-text">Join 100 Compannies who boost their business with Product</div>
-                        <div class="green____content-button"><a href="#">Get This</a></div>
+                        <button data-modal class="green____content-button">Get This</button>
                     </div>
                     <div class="green____img">
                         <img src="img/green.svg" alt="">
@@ -392,7 +392,7 @@
                 <form class="footer__form" action="">
                     <div class="footer__form-title">knowing you're always on the best energy deal. 
                     </div>
-                    <input class="form-input-email" type="email" value="enter your email">
+                    <input class="form-input-email" type="email" placeholder="enter your email">
                     <input class="form-input-button" type="button" value="Sign up Now">
                 </form>
                 </div>
@@ -400,6 +400,20 @@
                 </div>
             </div>
         </footer>
+        
+    </div>
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div data-close class="modal__close">&times;</div>
+                    <div class="modal__title">We'll contact you</div>
+                    <input required placeholder="Your name" name="name" type="text" class="modal__input">
+                    <input required placeholder="Your phone" name="phone" type="phone" class="modal__input">
+                    <button class="btn btn_dark btn_min">Call me</button>
+                </form>
+            </div>
+        </div>
     </div>
     <script src="js/script.js"></script>
 </body>
