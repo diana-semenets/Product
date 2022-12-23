@@ -1,0 +1,32 @@
+body {
+    background: #02897A;
+}
+.wrapper, .price-price, .review__autor-name, .review-card__text {    
+    color: #fff;    
+}
+.header-list__item a {
+    color: #fff;
+}
+.header__button-in a {
+    color: #fff;
+}
+.theme {
+    background: #222222;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+.title__content-btn, .product__container-btn, .quick__inner-btn, .table__card-btn, .form-input-button {
+    border: 1px solid #fff;
+}
+.quick__item-text {
+    color: #222222;
+}
+.table__card {
+    box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.5);
+}
+
+.footer__navone-item a {
+    color: #fff;
+}
+.footer__navtwo-item a {
+    color: #fff;
+}

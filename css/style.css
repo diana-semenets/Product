@@ -90,6 +90,16 @@ a {
   color: #22343D;
 }
 
+.theme {
+  cursor: pointer;
+  top: 50%;
+  left: 10px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(39, 38, 40, 0.4);
+}
+
 .header__button-in:hover {
   transition: all ease 0.5s;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
